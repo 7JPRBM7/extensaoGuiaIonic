@@ -1,0 +1,159 @@
+/* ==========================================
+      1. VARIÁVEIS LOCAIS DA TELA
+   ========================================== */
+ion-content {
+  --background: #f4f5f8;
+}
+
+/* ==========================================
+      2. CABEÇALHO E ESTRUTURA GERAL
+   ========================================== */
+ion-toolbar {
+  --background: #2dd36f;
+  --color: #ffffff;
+}
+
+/* ==========================================
+      3. COMPONENTES PRINCIPAIS
+   ========================================== */
+ion-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  margin-bottom: 15px;
+  border: 1px solid #edf2f7;
+}
+
+ion-item {
+  --background: transparent;
+  margin-top: 5px;
+}
+
+ion-badge {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.step-icon { 
+  font-size: 1.8rem; 
+}
+
+/* ==========================================
+      4. TIPOGRAFIA E TEXTOS
+   ========================================== */
+.header-text h2 {
+  font-weight: 800;
+  color: #222428;
+  margin-bottom: 5px;
+}
+
+.header-text p {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+ion-label h3 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+ion-card-content {
+  color: #555555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding-top: 0;
+}
+
+.terminal-block {
+  background-color: #282c34;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-top: 15px;
+  color: #61afef;
+  font-family: monospace;
+  font-size: 0.9rem;
+  border-left: 4px solid #2dd36f;
+}
+
+/* Estilos das subetapas explicativas */
+.sub-step-item {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555555;
+  
+  code {
+    background: #edf2f7;
+    color: #2dd36f;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+}
+
+/* ==========================================
+      5. BOTÕES E CONTROLES DE NAVEGAÇÃO  
+   ========================================== */
+/* (Vazio nesta aba, mantido para padronização do projeto) */
+
+
+/* ==========================================
+      6. CLASSES UTILITÁRIAS E ALINHAMENTOS
+   ========================================== */
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+}
+
+.main-icon {
+  font-size: 4rem;
+  color: #2dd36f;
+  margin-bottom: 10px;
+  background: #e9fbf0;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.sub-step-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px dashed #edf2f7;
+}
+
+/* Cores específicas dos ícones de etapa */
+.create-color { color: #eb445a; } 
+.folder-color { color: #e0a800; } 
+.serve-color { color: #3880ff; }  
+
+.success-message {
+  text-align: center;
+  padding: 30px 20px;
+  
+  ion-icon {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #2dd36f;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: #666666;
+  }
+}
