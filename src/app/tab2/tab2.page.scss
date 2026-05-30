@@ -1,0 +1,107 @@
+/* ==========================================
+      1. VARIÁVEIS LOCAIS DA TELA
+   ========================================== */
+ion-content {
+  --background: #f4f5f8;
+}
+
+/* ==========================================
+      2. CABEÇALHO E ESTRUTURA GERAL
+   ========================================== */
+ion-toolbar {
+  --background: #2dd36f;
+  --color: #ffffff;
+}
+
+.header-text {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  h2 {
+    font-weight: 800;
+    color: #222428;
+    margin-bottom: 5px;
+  }
+
+  p {
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+/* ==========================================
+      3. COMPONENTES PRINCIPAIS
+   ========================================== */
+ion-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  margin-bottom: 15px;
+  border: 1px solid #edf2f7;
+}
+
+ion-item {
+  --background: transparent;
+  margin-top: 5px;
+}
+
+ion-badge {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.step-icon {
+  font-size: 1.8rem;
+}
+
+.node-color { color: #68a063; }
+.blue-color { color: #007acc; }
+.dark-color { color: #222428; }
+
+ion-label h3 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+ion-card-content {
+  color: #555555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding-top: 0;
+}
+
+/* ==========================================
+      4. TIPOGRAFIA E TEXTOS
+   ========================================== */
+
+
+/* ==========================================
+      5. BOTÕES E CONTROLES DE NAVEGAÇÃO  
+   ========================================== */
+
+
+/* ==========================================
+      6. CLASSES UTILITÁRIAS E ALINHAMENTOS
+   ========================================== */
+
+
+/*  ==========================================
+    7. BLOCO DE CÓDIGO (TERMINAL)
+    ========================================== */
+.terminal-block {
+  background-color: #282c34;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-top: 15px;
+  color: #61afef;
+  font-family: monospace;
+  font-size: 0.9rem;
+  border-left: 4px solid #2dd36f;
+}
