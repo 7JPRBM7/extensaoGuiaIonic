@@ -1,17 +1,58 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Preparando o Terreno</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="header-text">
+    <h2>Configuração Inicial</h2>
+    <p>Siga estes 3 passos simples para deixar seu computador pronto para programar.</p>
+  </div>
+
+  <ion-card>
+    <ion-item lines="none">
+      <ion-badge color="primary" slot="start">1</ion-badge>
+      <ion-icon name="logo-nodejs" slot="start" class="step-icon node-color"></ion-icon>
+      <ion-label>
+        <h3>Instale o Node.js</h3>
+      </ion-label>
+    </ion-item>
+    <ion-card-content>
+      O Node.js é o motor que vai rodar o nosso ambiente por trás dos panos. Acesse o site oficial (nodejs.org) e baixe a versão recomendada (LTS).
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item lines="none">
+      <ion-badge color="primary" slot="start">2</ion-badge>
+      <ion-icon name="code-working-outline" slot="start" class="step-icon blue-color"></ion-icon>
+      <ion-label>
+        <h3>Baixe o VS Code</h3>
+      </ion-label>
+    </ion-item>
+    <ion-card-content>
+      Ele será o nosso editor de código. É nele que vamos escrever e organizar os arquivos do aplicativo. É gratuito e muito leve!
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item lines="none">
+      <ion-badge color="primary" slot="start">3</ion-badge>
+      <ion-icon name="terminal-outline" slot="start" class="step-icon dark-color"></ion-icon>
+      <ion-label>
+        <h3>Instale o Ionic CLI</h3>
+      </ion-label>
+    </ion-item>
+    <ion-card-content>
+      Com o Node.js instalado, abra o terminal do seu computador e digite o comando abaixo para instalar as ferramentas do Ionic globalmente:
+      
+      <div class="terminal-block">
+        <code>npm install -g @ionic/cli</code>
+      </div>
+      
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
