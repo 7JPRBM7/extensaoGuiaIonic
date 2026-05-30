@@ -5,7 +5,7 @@ import {
   IonIcon, IonBadge 
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import { logoNodejs, codeWorkingOutline, terminalOutline } from 'ionicons/icons';
+import { logoNodejs, codeWorkingOutline, terminalOutline, constructOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tab2',
@@ -20,6 +20,6 @@ import { logoNodejs, codeWorkingOutline, terminalOutline } from 'ionicons/icons'
 })
 export class Tab2Page {
   constructor() {
-    addIcons({ logoNodejs, codeWorkingOutline, terminalOutline });
+    addIcons({ logoNodejs, codeWorkingOutline, terminalOutline, constructOutline });
   }
 }
