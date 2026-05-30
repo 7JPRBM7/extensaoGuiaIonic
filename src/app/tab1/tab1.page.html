@@ -1,17 +1,43 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Guia Ionic
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  
+  <div class="welcome-container">
+    <ion-icon name="rocket-outline" class="main-icon" color="primary"></ion-icon>
+    <h1>Seu Primeiro App!</h1>
+    <p>
+      Neste mini-curso prático, você vai aprender a dar os primeiros passos no desenvolvimento mobile criando um aplicativo real, do zero à publicação.
+    </p>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        <ion-icon name="code-slash-outline" color="tertiary"></ion-icon>
+        O que é o Ionic?
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      O Ionic é um framework poderoso que permite criar aplicativos para Android e iOS utilizando as tecnologias web que você já estuda: HTML, CSS e Angular/TypeScript. Você escreve o código uma vez e ele funciona em qualquer lugar!
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        <ion-icon name="library-outline" color="secondary"></ion-icon>
+        O que vamos aprender?
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Nas próximas abas, vamos preparar o seu computador instalando ferramentas essenciais como o VS Code e o Node.js. Depois, vamos executar comandos no terminal para construir a sua interface.
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>

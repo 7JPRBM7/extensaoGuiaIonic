@@ -1,13 +1,25 @@
 import { Component } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
-import { ExploreContainerComponent } from '../explore-container/explore-container.component';
+import { 
+  IonHeader, IonToolbar, IonTitle, IonContent, 
+  IonCard, IonCardHeader, IonCardTitle, IonCardContent, 
+  IonIcon 
+} from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { rocketOutline, codeSlashOutline, libraryOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss'],
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent],
+  standalone: true,
+  imports: [
+    IonHeader, IonToolbar, IonTitle, IonContent, 
+    IonCard, IonCardHeader, IonCardTitle, IonCardContent, 
+    IonIcon
+  ],
 })
 export class Tab1Page {
-  constructor() {}
+  constructor() {
+    addIcons({ rocketOutline, codeSlashOutline, libraryOutline });
+  }
 }
