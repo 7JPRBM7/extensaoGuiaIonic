@@ -1,0 +1,81 @@
+/* ==========================================
+      1. VARIÁVEIS LOCAIS DA TELA
+   ========================================== */
+ion-content {
+  --background: #f4f5f8; 
+}
+
+/* ==========================================
+      2. CABEÇALHO E ESTRUTURA GERAL
+   ========================================== */
+ion-toolbar {
+  --background: #2dd36f; 
+  --color: #ffffff;
+}
+
+/* ==========================================
+      3. COMPONENTES PRINCIPAIS
+   ========================================== */
+ion-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04); 
+  margin-bottom: 20px;
+  border: 1px solid #edf2f7;
+}
+
+/* ==========================================
+      4. TIPOGRAFIA E TEXTOS
+   ========================================== */
+ion-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2dd36f; 
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+ion-card-content {
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+h1 {
+  font-weight: 800;
+  color: #222428;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666666;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* ==========================================
+      5. BOTÕES E CONTROLES DE NAVEGAÇÃO  
+   ========================================== */
+
+
+/* ==========================================
+      6. CLASSES UTILITÁRIAS E ALINHAMENTOS
+   ========================================== */
+   .welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+}
+
+.main-icon {
+  font-size: 4.5rem;
+  color: #2dd36f;
+  margin-bottom: 15px;
+  background: #e9fbf0; /* Um fundo verde bem clarinho atrás do foguete */
+  padding: 18px;
+  border-radius: 50%;
+}
